@@ -9,6 +9,6 @@ before_install:
   - chmod +x $GOPATH/bin/dep
 
 install:
-  - make deps
+  - make install
 
 script: make test
